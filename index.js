@@ -10,6 +10,6 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine (katzDeliLine) {
-  if (katzDeliLine.length > 0) return `The line is currently ${katzDeliLine[0]};
+  if (katzDeliLine.length > 0) return `The line is currently ${katzDeliLine[0]}`;
   else return "The line is currently empty.";
 }
