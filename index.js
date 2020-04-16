@@ -18,3 +18,4 @@ function currentLine(line) {
     lineNum.push(` ${i+1}. ${line[i]}`);
  }
   return "The line is currently:" + lineNum;
+}
